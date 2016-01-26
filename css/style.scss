@@ -279,6 +279,12 @@ pre {
     }
 }
 
+@media only screen and (min-width : 767px) {
+    body {
+        background: url('/dokument/arrow.jpg') no-repeat 101% 35px;
+    }
+}
+
 @media only screen and (max-width : 480px) {
     .tile .featurette, .topper {
         height: 300px;
