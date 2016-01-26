@@ -1,4 +1,4 @@
 main:
     - { url: '/om', text: 'Om' }
-    - { url: '/Instruktioner-for-ansvarsomraden/', text: 'Instruktioner för ansvarsområden'}
+    - { url: '/dokument/Instruktioner-for-ansvarsomraden/', text: 'Instruktioner för ansvarsområden'}
     - { url: 'http://www.kaismora.se', text: 'kaismora.se' }
