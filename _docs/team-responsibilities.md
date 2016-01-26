@@ -1,7 +1,7 @@
 ---
 layout: inner
 title: Instruktioner för ansvarsområden
-permalink: /Instruktioner-for-ansvarsomraden/
+permalink: /instruktioner-for-ansvarsomraden/
 lead_text: Roller alla lag ska ha tillsatta
 ---
 

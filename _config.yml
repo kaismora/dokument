@@ -4,7 +4,9 @@ destination: ./_site
 plugins_dir:     ./_plugins
 layouts_dir:     ./_layouts
 data_dir: ./_data
-# collections: null
+collections:
+  docs:
+    output: true
 
 # Handling Reading
 safe:         false
@@ -34,7 +36,7 @@ excerpt_separator: "\n\n"
 detach:  false
 port:    4000
 host:    127.0.0.1
-baseurl: "" # does not include hostname
+baseurl: "/dokument/" # does not include hostname
 
 # Outputting
 permalink:     /:title.html
@@ -70,3 +72,4 @@ kramdown:
 
 
 include: ['_pages']
+
