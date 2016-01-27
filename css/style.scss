@@ -3,6 +3,18 @@
 @import '../_sass/bootstrap';
 @import '../_sass/syntax-highlighting';
 
+@font-face {
+    font-family: 'Campton-Bold';
+    src: url(//kaismora.se/wp-content/themes/kais_mora/library/css/../fonts/2DE917_0_0.eot);
+    src: url(//kaismora.se/wp-content/themes/kais_mora/library/css/../fonts/2DE917_0_0.eot?#iefix) format("embedded-opentype"), url(//kaismora.se/wp-content/themes/kais_mora/library/css/../fonts/2DE917_0_0.woff2) format("woff2"), url(//kaismora.se/wp-content/themes/kais_mora/library/css/../fonts/2DE917_0_0.woff) format("woff"), url(//kaismora.se/wp-content/themes/kais_mora/library/css/../fonts/2DE917_0_0.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: 'Campton-Light';
+    src: url(//kaismora.se/wp-content/themes/kais_mora/library/css/../fonts/2DE917_1_0.eot);
+    src: url(//kaismora.se/wp-content/themes/kais_mora/library/css/../fonts/2DE917_1_0.eot?#iefix) format("embedded-opentype"), url(//kaismora.se/wp-content/themes/kais_mora/library/css/../fonts/2DE917_1_0.woff2) format("woff2"), url(//kaismora.se/wp-content/themes/kais_mora/library/css/../fonts/2DE917_1_0.woff) format("woff"), url(//kaismora.se/wp-content/themes/kais_mora/library/css/../fonts/2DE917_1_0.ttf) format("truetype")
+}
+
 
 $scotch-primary: rgb(255, 69, 69);
 $scotch-secondary: #FF7B7B;
@@ -49,6 +61,12 @@ nav.navbar {
 
     .navbar-brand {
         text-transform: none;
+
+        > img {
+            display: inline;
+            margin-top: -5px;
+            margin-right: 5px;
+        }
 
         i {
             transition: inherit;
