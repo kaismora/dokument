@@ -1,8 +1,8 @@
 ---
 layout: inner
-title: Instruktioner för ansvarsområden
-permalink: instruktioner-for-ansvarsomraden/
-lead_text: Roller alla lag ska ha tillsatta
+title: Mall för markdown
+permalink: mall-for-markdown/
+lead_text: En mall där man kan se vad/hur man kan göra för att skriva markdown
 ---
 
 ## Rubrik nivå 2
