@@ -21,7 +21,7 @@ Numrerade listor
 2. två
 3. tre
 
-onumrerade listor, de kan skrivas på lite olika sätt
+onumrerade listor. De kan skrivas på lite olika sätt, antingen med `-`, `*` eller `+`
 
 - ett
 - två
@@ -35,3 +35,24 @@ onumrerade listor, de kan skrivas på lite olika sätt
 + två
 + tre
 
+## Citat
+
+> This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+
+> Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+id sem consectetuer libero luctus adipiscing.
+
+> This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+> consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+> Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+> 
+> Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+> id sem consectetuer libero luctus adipiscing.
+
+## Länkar
+
+[Den här länken](http://example.net/) har inget title-attribut.
+
+[Den här länken](http://example.net/ "title") har ett title-attribut.
