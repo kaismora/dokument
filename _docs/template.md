@@ -6,7 +6,7 @@ lead_text: En mall där man kan se vad/hur man kan göra för att skriva markdow
 exclude_from_nav: true
 ---
 
-##Rubrik nivå 2
+## Rubrik nivå 2
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam varius dui in venenatis aliquam. Cras vel mauris nec ante varius bibendum. Aenean ultricies pulvinar enim non pretium. Aliquam auctor ipsum vitae mauris elementum, eget viverra libero iaculis. Cras a elit a augue ornare aliquam. Curabitur non feugiat arcu, vitae mollis neque. Fusce nec posuere nunc, nec auctor dui. Mauris nulla elit, mattis non blandit at, mattis nec massa. Suspendisse ut nisl ornare, porttitor justo ac, cursus sem. Quisque a lorem fermentum, tempor urna a, placerat erat.
 
