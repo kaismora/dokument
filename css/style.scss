@@ -5,14 +5,14 @@
 
 @font-face {
     font-family: 'Campton-Bold';
-    src: url(//kaismora.se/wp-content/themes/kais_mora/library/css/../fonts/2DE917_0_0.eot);
-    src: url(//kaismora.se/wp-content/themes/kais_mora/library/css/../fonts/2DE917_0_0.eot?#iefix) format("embedded-opentype"), url(//kaismora.se/wp-content/themes/kais_mora/library/css/../fonts/2DE917_0_0.woff2) format("woff2"), url(//kaismora.se/wp-content/themes/kais_mora/library/css/../fonts/2DE917_0_0.woff) format("woff"), url(//kaismora.se/wp-content/themes/kais_mora/library/css/../fonts/2DE917_0_0.ttf) format("truetype")
+    src: url(fonts/2DE917_0_0.eot);
+    src: url(fonts/2DE917_0_0.eot?#iefix) format("embedded-opentype"), url(fonts/2DE917_0_0.woff2) format("woff2"), url(fonts/2DE917_0_0.woff) format("woff"), url(fonts/2DE917_0_0.ttf) format("truetype")
 }
 
 @font-face {
     font-family: 'Campton-Light';
-    src: url(//kaismora.se/wp-content/themes/kais_mora/library/css/../fonts/2DE917_1_0.eot);
-    src: url(//kaismora.se/wp-content/themes/kais_mora/library/css/../fonts/2DE917_1_0.eot?#iefix) format("embedded-opentype"), url(//kaismora.se/wp-content/themes/kais_mora/library/css/../fonts/2DE917_1_0.woff2) format("woff2"), url(//kaismora.se/wp-content/themes/kais_mora/library/css/../fonts/2DE917_1_0.woff) format("woff"), url(//kaismora.se/wp-content/themes/kais_mora/library/css/../fonts/2DE917_1_0.ttf) format("truetype")
+    src: url(fonts/2DE917_1_0.eot);
+    src: url(fonts/2DE917_1_0.eot?#iefix) format("embedded-opentype"), url(fonts/2DE917_1_0.woff2) format("woff2"), url(fonts/2DE917_1_0.woff) format("woff"), url(fonts/2DE917_1_0.ttf) format("truetype")
 }
 
 
@@ -47,7 +47,17 @@ a {
     font-weight: 400;
     @extend %oswald;
 }
-h1, h2, h3, h4, h5, h6 { @extend %oswald; }
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Campton-Light", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: #222;
+    text-rendering: optimizeLegibility;
+    margin-top: 0.2rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.4;
+    text-transform: uppercase;
+}
 ::selection {
     background: #086AFF;
     color: #fff;
