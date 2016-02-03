@@ -61,8 +61,7 @@
     <meta name="msapplication-TileColor" content="#ffffff">
 
     <!-- Fonts -->
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto+Condensed:300,300italic,400,400italic,700,700italic|Oswald:300,400,700">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300' rel='stylesheet' type='text/css'>
 
     <!-- Styles -->
     <link rel="stylesheet" href="{{ site.url | prepend: site.baseurl }}/css/style.css">
@@ -99,9 +98,11 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dokument <span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             {% for doc in site.docs %}
-                                {% if doc.title %}
-                                    <li><a class="page-link" href="{{ doc.url | prepend: site.baseurl }}">{{ doc.title }}</a></li>
-                                {% endif %}
+                                {% unless doc.exclude_from_nav %}
+                                    {% if doc.title %}
+                                        <li><a class="page-link" href="{{ doc.url | prepend: site.baseurl }}">{{ doc.title }}</a></li>
+                                    {% endif %}
+                                {% endunless %}
                             {% endfor %}
                         </ul>
                     </li>
