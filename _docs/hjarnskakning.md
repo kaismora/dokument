@@ -7,7 +7,7 @@ lead_text: ''
 
 Det har tyvärr varit några hjärnskakningar i föreningen och tillvägagångssättet vid händelse har varit olika. Därav har jag varit i kontakt med Mora gymnasiums sjukvårdsteam, bl a Anita Larsson Develius och fått detta förslag. Hoppas att detta är till hjälp och att vi för våra spelares skull gör det som är bäst för dem. Rätt åtgärd vid skada kan förkorta rehabiliteringen.
 
-Vid huvudskada är rekommendationen att ALLTID besöka akut sjukvård så fort som möjligt. Personen som råkat ut för huvudskada får inte under några omständigheter lämnas utan uppsyn. 
+**_Vid huvudskada är rekommendationen att ALLTID besöka akut sjukvård så fort som möjligt. Personen som råkat ut för huvudskada får inte under några omständigheter lämnas utan uppsyn._**
 
 Efter undersökning så rekommenderas nedanstående tillvägagångssätt för att komma tillbaka till idrotten.
 
